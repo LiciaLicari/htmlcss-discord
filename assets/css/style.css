@@ -28,7 +28,16 @@ body {
   border: none;
   border-radius: 1rem;
   background-color: #ededed;
-  color: #3060e0;
+  color: #22262a;
+  font-size: 0.8rem;
+}
+
+.btn-open-brs {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #22262a;
+  color: #ededed;
   font-size: 0.8rem;
 }
 
@@ -40,25 +49,23 @@ body {
   background-color: #3060e0;
 }
 
-.debug [class^='col-']
-{
+.debug [class^='col-'] {
   height: 200px;
   background-color: palegreen;
   border: 1px dashed;
 }
 
-.debug .h-50
-{
+.debug .h-50 {
   height: 500px;
 }
 
 .debug .login,
 .debug .logo,
-.debug .menu
-{
+.debug .menu, .debug .container-btn {
   border: 1px dashed;
 }
 
+/*
 .debug .container-sm
 {
   background-color: palevioletred;
@@ -70,6 +77,7 @@ body {
 
 .d-flex {
   display: flex;
+  justify-content: center;
 }
 
 .container-sm
@@ -131,11 +139,11 @@ header {
 
 .logo, .login {
   width: 20%;
+  padding: 1rem 0;
 }
 .menu {
   width: 60%;
   text-align: center;
-  
 
 }
 .login {
@@ -155,7 +163,7 @@ a {
   background-color: paleturquoise;
   height: 450px; /* we might need to keep this */
   padding: 2rem 0;
-  background-image: url('/assets/img/jumbo.png');
+  background-image: url('/htmlcss-discord/assets/img/jumbo.png');
   background-size: contain;
   background-position: center;
 }
