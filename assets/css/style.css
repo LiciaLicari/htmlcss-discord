@@ -19,6 +19,21 @@ body {
 
 /* #endregion Common */
 
+/* #region Button */
+
+
+
+.btn-login {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #ededed;
+  color: #3060e0;
+  font-size: 0.8rem;
+}
+
+/* #endregion Button */
+
 /* #region Debug */
 .debug .container
 {
