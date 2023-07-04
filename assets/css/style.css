@@ -15,7 +15,7 @@ section {
 /* #region Debug */
 .debug .container
 {
-  background-color: rgb(255, 166, 0);
+  background-color: #3060e0;
 }
 
 .debug [class^='col-']
@@ -61,8 +61,7 @@ section {
 }
 
 /* Flex Grid */
-.container
-{
+.container {
   max-width: 1170px;
   width: 80%;
   margin: auto;
@@ -72,16 +71,14 @@ section {
   /* negative margin */
 }
 
-[class^='col-']
-{
+[class^='col-'] {
   padding: 0 1rem;
 }
 
-.col-3{
+.col-3 {
   width: calc(100% / 12 * 3);
 }
-.col-4
-{
+.col-4 {
   width: calc(100% / 12 * 4);
 }
 .col-8 {
@@ -100,12 +97,14 @@ section {
   background-color: #ededed;
 }
 
+
 /* #endregion Utility */
 
 /* #region Header */
 
 header {
-  background-color: blue;
+  background-color: #3060e0;
+  color: #fffefe;
 }  
 
 .logo, .login {
@@ -135,7 +134,7 @@ header {
 
 /* #region Footer */
 footer {
-  background-color: darkblue;
+  background-color: #3060e0;
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
