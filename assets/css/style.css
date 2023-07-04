@@ -10,6 +10,13 @@ section {
   padding: 2rem 0;
 }
 
+body {
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+}
+
 /* #endregion Common */
 
 /* #region Debug */
