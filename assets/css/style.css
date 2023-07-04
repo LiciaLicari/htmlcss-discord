@@ -155,6 +155,9 @@ a {
   background-color: paleturquoise;
   height: 450px; /* we might need to keep this */
   padding: 2rem 0;
+  background-image: );
+  background-size: cover;
+  background-position: center;
 }
 
 
