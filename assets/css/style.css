@@ -91,6 +91,10 @@ body {
   justify-content: space-between;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Flex Grid */
 .container {
   max-width: 1170px;
