@@ -52,13 +52,13 @@ body {
 {
   background-color: #3060e0;
 }
-
+/* 
 .debug [class^='col-'] {
   height: 200px;
   background-color: palegreen;
   border: 1px dashed;
 }
-
+*/
 .debug .h-50 {
   height: 500px;
 }
@@ -186,7 +186,26 @@ a {
   
 }
 
+.sec-1 {
+  background-image: url('/htmlcss-discord/assets/img/item1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.sec-2 {
+  background-image: url('/htmlcss-discord/assets/img/item2.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec-3 {
+  background-image: url('/htmlcss-discord/assets/img/item3.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 /* #endregion Main */
