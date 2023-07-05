@@ -15,7 +15,6 @@ body {
   font-family: 'gg sans Normal', sans-serif;
   font-family: 'gg sans Medium', sans-serif;
   font-family: 'gg sans SemiBold', sans-serif;
-  color: #ededed;
 }
 
 /* #endregion Common */
@@ -89,6 +88,7 @@ body {
   max-width: 800px;
   width: 60%;
   margin: auto;
+  color: #ededed;
 }
 
 .justify-content-between {
